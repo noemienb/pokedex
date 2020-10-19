@@ -1,29 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Pokédex</title>
-        <link rel="stylesheet" href="style.css" type="text/css"/>
-    </head>
-    <body>
+
+<head>
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width" />
+
+</head>
+
+<body>
+    <main>
         <h1>Pokédex</h1>
-        <main>
-            <ul id="list"></ul>
-            <div id="description">
-                <button class="close">❌</button>
-                <dl>
-                    <dt>Name</dt>
-                    <dd class="name"></dd>
-                    <dt>ID</dt>
-                    <dd class="id"></dd>
-                    <dt>Poids</dt>
-                    <dd class="weight"></dd>
-                    <dt>Taille</dt>
-                    <dd class="height"></dd>
-                    <dt>Types</dt>
-                    <dd class="types"></dd>
-                </dl>
-            </div>
-        </main>
-        <script src="script.js"></script>
-    </body>
+
+
+
+        <div id="info_chargement">
+            <span>Chargement</span>
+            <span id="pourcentage">0</span>
+
+            <span>%</span>
+        </div>
+
+
+
+        <div id="description">
+
+            <dl>
+
+                <dt>Name</dt>
+
+                <dd class="name"></dd>
+
+                <dt>ID</dt>
+                <dd class="id"></dd>
+                <dt>Poids</dt>
+                <dd class="weight"></dd>
+                <dt>Taille</dt>
+                <dd class="height"></dd>
+                <dt>Types</dt>
+                <dd class="types"></dd>
+                <dt>image</dt>
+                <dd class="image"></dd>
+
+            </dl>
+        </div>
+        <ul id="list"></ul>
+
+        </div>
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
 </html>
